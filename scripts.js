@@ -23,7 +23,7 @@ var createScene = function () {
     camera.attachControl(canvas, false);
     
     // The first parameter can be used to specify which mesh to import. Here we import all meshes
-    BABYLON.SceneLoader.Append("modelo/", "Dying.glb", scene, function (newMeshes) {
+    BABYLON.SceneLoader.Append("../modelo/", "Dying.glb", scene, function (newMeshes) {
 
         var mesh = scene.meshes[0];
 
